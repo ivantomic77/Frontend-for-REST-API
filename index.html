@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DB Managment</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <div class="logoFlex">
+                    <img src="src/logo.jpg" alt="" class="logoImg">
+                    <div>
+                        <h2 class="appName">Database Managment</h2>
+                        <p class="creator">by Tomic</p>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <button>Documentation</button>
+                <button>Print</button>
+            </div>
+        </nav>
+
+        <div class="main">
+            <div class="content">
+                <select name="Database" class="tableSelector">
+                    <option value="customers">Customers</option>
+                    <option value="dummy1">Dummy option</option>
+                </select>
+                <button>Choose</button>
+            </div>
+
+            <table>
+                <tr class="dbFields">
+                    <th>id</th>
+                    <th>firstName</th>
+                    <th>lastName</th>
+                    <th>active</th>
+                    <th>path</th>
+                    <th>fileName</th>
+                    <th>fileType</th>
+                    <th></th>
+                    <th><button>NEW USER</button></th>
+                </tr>
+                <tr class="column1">
+                    <th>1</th>
+                    <th>Ivan</th>
+                    <th>Tomic</th>
+                    <th>true</th>
+                    <th>D:\IntelliJ IDEA 2022.2\lib\cds</th>
+                    <th>image.jpg</th>
+                    <th>image/standard</th>
+                    <th><button>EDIT</button></th>
+                    <th><button>DELETE</button></th>
+                </tr>
+                <tr class="column2">
+                    <th>2</th>
+                    <th>Luka</th>
+                    <th>Plejic</th>
+                    <th>false</th>
+                    <th>D:\IntelliJ IDEA 2022.2</th>
+                    <th>furry.mp4</th>
+                    <th>video/mpeg</th>
+                    <th><button>EDIT</button></th>
+                    <th><button>DELETE</button></th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="" async defer></script>
+    </body>
+</html>
